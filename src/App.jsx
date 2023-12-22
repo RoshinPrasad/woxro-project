@@ -10,6 +10,13 @@ function App() {
     <>
       <div className="bg-black flex flex-row justify-center w-full overflow-x-hidden">
         <div className="bg-black w-[1920px] h-[3328px] relative">
+          
+          <button
+            className="absolute top-4 right-4 w-10 h-10  text-white border-none rounded-full flex items-center justify-center cursor-pointer transition duration-300 transform hover:rotate-180"
+            
+          >
+            X
+          </button>
           <p
             className="absolute w-[1231px] h-[81px] top-[102px] left-[345px] opacity-80 [font-family:'Poppins-Regular',Helvetica] font-normal text-white text-[18px] text-center tracking-[0] leading-[normal]"
             style={{ fontSize: "30px" }}
